@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #ffffff;
+    overflow-y: scroll;
+}
+
+.capa {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+/*Estilos para el encabezado*/
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffd4dd;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.container .btn-menu,
+
+.logo {
+  float: left;
+  max-width: 240px;
+  padding-left: 10px;
+  padding-top: 2px;
+  line-height: 100px;
+}
+.container .btn-menu label {
+  color: #f24b04;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container .menu {
+  float: right;
+  line-height: 100px;
+}
+.container .menu a {
+  display: inline-block;
+  padding: 15px;
+  line-height: normal;
+  text-decoration: none;
+  color: #f24b04;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.container .menu a:hover {
+  color: #f24b04;
+  border-bottom: 2px solid ;
+  padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+h2{
+  font-size: 70px;
+  font-weight: 800;
+  color:#f24b04;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500px;
+}
+main{
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*Inicio index*/
+
+.ESIarg{
+  padding-top: 10px;
+  background-color: #ffd4dd;
+  height: 400px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#TITULO-ESIarg{
+  font-size: 35px;
+  color: #f24b04;
+}
+
+.subcards-ESIarg{
+  height: 307px;
+  
+
+  padding-top: 20px;
+  display: flex;
+  gap: 27px;
+}
+
+.subESIarg{
+  width: 340px;
+  height: 307px;
+  background-color: #f24b04;
+  border-radius: 30px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+
+.IMG-subESIarg{
+  width: 310px;
+  height: 245px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 14px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.TITULO-subESIarg{
+  font-size: 30px;
+  padding-left: 15px;
+  color:#ffffff;
+}
+
+.ESIvideos{
+  margin-top: 2%;
+  background-color: #ffb0c1;
+  height: 360px;
+  padding-top: 1.7%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.canal-encuentro {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff1f4;
+  border-radius: 20px;
+}
+
+.encuentro-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-encuentro {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#ENCUENTRO-TITULO{
+  color: #f24b04;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.encuentro-textos p {
+  color: #f24b04;
+  font-size: 15px;
+}
+
+.carrusel-videos {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.videos-scroll {
+  display: flex;
+  gap: 15px;
+  min-width: max-content;
+}
+
+.videos-scroll iframe {
+  width: 300px;
+  height: 180px;
+  border-radius: 12px;
+  border: none;
+}
+
+#TITULO-ESIarts{
+  font-size: 37;
+  color: #f24b04;
+  font-weight: 500px
+}
+
+/*Fin index*/
+
+/*Inicio importancia*/
+
+.TITULO-IMPORTANCIA{
+  font-size: 300%;
+  color: #f24b04;
+  line-height: 100%;
+}
+
+.IMPyPRO-subdesc{
+  padding-top: 0.5%;
+  margin-top: 1%;
+  background-color: #ffd4dd;
+  font-size: 20px;
+  color: #f24b04;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.IMP-temas{
+  padding-top: 3%;
+  color: #f24b04;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px;
+}
+
+.TITULOIMP-temas{
+  font-weight: 700;
+  font-size: 150%;
+}
+
+.IMP-IMGitems{
+  float: left;
+  padding-right: 1%;
+  align-items: center;
+  width: 100px;
+  flex-shrink: 0;
+
+}
+
+.testimonios-esi {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.titulo-testimonios {
+  color: #f24b04;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitulo-testimonios {
+  color: #f24b04;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #ffd4dd;
+}
+
+.cards-testimonios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.card-testimonio {
+  background-color: #ffdde5;
+  padding: 15px;
+  border-radius: 12px;
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.texto-testimonio {
+  font-size: 15px;
+  color: #f24b04;
+  margin-bottom: 10px;
+}
+
+.autor-testimonio {
+  font-size: 12px;
+  color: #f24b04;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/*Fin importancia*/
+
+/*Menù lateral*/
+#btn-menu {
+  display: none;
+}
+.container-menu {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: scroll;
+}
+#btn-menu:checked ~ .container-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.cont-menu {
+  width: 100%;
+  max-width: 250px;
+  background-color: #ffd4dd;
+  height: 100vh;
+  position: relative;
+  transition: all 500ms ease;
+  transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu {
+  transform: translateX(0%);
+}
+.cont-menu nav {
+  transform: translateY(15%);
+}
+.cont-menu nav a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #f24b04;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease;
+}
+.cont-menu nav a:hover {
+  border-left: 5px solid #f24b04;
+  background: #ffacbd;
+}
+.cont-menu label {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: #f24b04;
+  cursor: pointer;
+  font-size: 18px;
+}
+/*Fin de Menù lateral*/
+
