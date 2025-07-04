@@ -16,7 +16,7 @@
     <main>
         <form id="registro1" action="form.php" method="post">
             <div class="imagen">
-                <img src="/assets/IMG-ESILogo.png" alt="logo"></a>
+                <a href="./index.html"><img src="./assets/IMG-ESILogo.png" alt="logo"></a>
             </div>
             <div class="titulo">
                 <h2>REGISTRO</h2>
@@ -41,6 +41,14 @@
                     <label>Contraseña
                         <input type="password" name="contrasena" required>
                     </label>
+                </div class ="ingreso">
+                    <label for="genero">Género:</label>
+                        <select name="genero" id="genero">
+                            <option value="femenino">Femenino</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="otro">Otro</option>
+                            <option value="prefiero-no-decir">Prefiero no decirlo</option>
+                        </select>
                 </div>
                 <div class="boton">
                     <button>Enviar</button>

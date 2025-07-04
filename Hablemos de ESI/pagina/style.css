@@ -109,11 +109,15 @@ main{
 
 .subcards-ESIarg{
   height: 307px;
-  
-
   padding-top: 20px;
   display: flex;
   gap: 27px;
+  justify-content: center;
+}
+
+.subESIarg:hover{
+  transform: scale(1.09);
+  transition: 0.5s;
 }
 
 .subESIarg{
@@ -305,6 +309,72 @@ main{
 }
 
 /*Fin importancia*/
+
+/*Inicio problemática*/
+
+/* Página Problemática */
+.main-problematica {
+  padding: 130px 5% 60px;
+  background-color: #ffffff;
+}
+
+.titulo-principal {
+  font-size: 55px;
+  font-weight: 800;
+  color: #f24b04;
+  margin-bottom: 20px;
+}
+
+.intro-problematica {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #f24b04;
+}
+
+.subtitulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f24b04;
+  margin-bottom: 10px;
+}
+
+.bloque-problema {
+  margin-bottom: 50px;
+}
+
+.contenido-bloque {
+  background-color: #fff;
+  padding-left: 10px;
+  color: #f24b04;
+  font-size: 20px;
+}
+
+.parrafo-color {
+  background-color: #ffe3e8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #f24b04;
+  font-size: 20px;
+}
+
+.alerta {
+  background-color: #ffcfd7;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+  color: #f24b04;
+  font-size: 20px;
+}
+
+.alerta ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  color: #f24b04;s
+}
+
+/*Fin problemática*/
 
 /*Inicio artículos*/
 
