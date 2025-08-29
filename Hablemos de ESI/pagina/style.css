@@ -527,7 +527,7 @@ main{
   max-width: 250px;
   background-color: #ffd4dd;
   height: 100vh;
-  position: relative;
+  position: fixed;
   transition: all 500ms ease;
   transform: translateX(-100%);
 }
