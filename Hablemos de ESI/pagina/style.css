@@ -517,6 +517,7 @@ main{
   opacity: 0;
   visibility: hidden;
   overflow-y: scroll;
+  position: fixed;
 }
 #btn-menu:checked ~ .container-menu {
   opacity: 1;

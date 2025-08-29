@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artículos - Hablemos de ESI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>    
+  <header class="header">
+    <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+      <div class="logo">
+        <img src="../assets/IMG-ESILogo.png" alt="logo" class="logo" />
+      </div>
+      <nav class="menu">
+        <a href="./login.html">Perfil</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main-articulos">
+    <h2>Artículos</h2>
+
+    <div class="buscador-filtros">
+      <img src="../assets/IMG-ICONOlupa.png" class="icono-lupa" alt="Lupa">
+      <input type="text" placeholder="Buscar..." class="barra-busqueda">
+    </div>
+
+    <div class="categorias-scroll">
+      <button class="categoria seleccionada" data-categoria="cuerpo">Cuerpo y Salud</button>
+      <button class="categoria" data-categoria="afectividad">Afectividad y Vínculos</button>
+      <button class="categoria" data-categoria="derechos">Derechos Sexuales</button>
+      <button class="categoria" data-categoria="genero">Perspectiva de Género</button>
+      <button class="categoria" data-categoria="diversidad">Diversidad e Inclusión</button>
+    </div>
+
+    <!-- CUERPO Y SALUD -->
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Pubertad y cambios corporales</h3>
+      <div class="carrusel-articulos">
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK534827/https://www.ncbi.nlm.nih.gov/books/NBK534827/https://www.ncbi.nlm.nih.gov/books/NBK534827/" class="tarjeta-articulo">
+          <img src="../assets/IMG-CUERPOpubertad1.jpg" alt="Articulo">
+          <h4>Fisiología, Pubertad</h4>
+          <p>National Library of Medicine - National Institutes of Health</p>
+        </a>
+        <a href="https://www.plannedparenthood.org/es/temas-de-salud/para-adolescentes/pubertad" class="tarjeta-articulo">
+          <img src="../assets/IMG-CUERPOpubertad2.jpg" alt="Articulo">
+          <h4>Pubertad</h4>
+          <p>Planned Parenthood</p>
+        </a>
+      </div>
+    </section>
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Menstruación y ciclo menstrual</h3>
+      <div class="carrusel-articulos">
+        <a href="https://kidshealth.org/es/teens/menstruation.html" class="tarjeta-articulo">
+          <img src="../assets/IMG-CUERPOmenstruacion1.jpg" alt="Articulo">
+          <h4>Todo sobre la menstruación</h4>
+          <p>Kids Health</p>
+        </a>
+        <a href="https://www.mayoclinic.org/es/healthy-lifestyle/womens-health/in-depth/menstrual-cycle/art-20047186" class="tarjeta-articulo">
+          <img src="../assets/IMG-CUERPOmenstruacion2.jpg" alt="Articulo">
+          <h4>Ciclo menstrual: qué es normal y qué no</h4>
+          <p>Mayo Clinic</p>
+        </a>
+      </div>
+    </section>
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Anticoncepción y métodos de cuidado</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Infecciones de transmisión sexual (ITS)</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Visitas al médico y salud ginecológica/urológica</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="cuerpo">
+      <h3>Autocuidado y consentimiento médico</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+
+    <!-- AFECTIVIDAD Y VÍNCULOS -->
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Tipos de relaciones (amistad, pareja, familia)</h3>
+      <div class="carrusel-articulos">
+        <a href="https://www.psicologosmadridcapital.com/blog/tipos-relaciones-pareja/" class="tarjeta-articulo">
+          <img src="../assets/IMG-AFECTIVIDADrelaciones1.jpg" alt="Articulo">
+          <h4>Tipos de Relaciones de Pareja</h4>
+          <p>Aesthesis Psicólogos Madrid</p>
+        </a>
+      </div>
+    </section>
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Consentimiento</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Autoestima y bienestar emocional</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Relaciones tóxicas o violentas</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Emociones y gestión emocional</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="afectividad">
+      <h3>Celos, presión social y respeto</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+
+    <!-- DERECHOS SEXUALES -->
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Qué son los derechos sexuales y reproductivos</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Acceso a métodos anticonceptivos</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Derecho a la información y a decidir</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Ley de Interrupción Voluntaria del Embarazo (IVE/ILE)</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Protección contra abusos</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="derechos">
+      <h3>Acompañamiento institucional (escuelas, hospitales, etc.)</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+
+    <!-- PERSPECTIVA DE GÉNERO -->
+    <section class="subcategoria" data-categoria="genero">
+      <h3>Estereotipos de género</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="genero">
+      <h3>Roles en la escuela, el trabajo y el hogar</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="genero">
+      <h3>Violencia de género</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="genero">
+      <h3>Nuevas masculinidades</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="genero">
+      <h3>Feminismo y equidad</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+
+    <!-- DIVERSIDAD E INCLUSIÓN -->
+    <section class="subcategoria" data-categoria="diversidad">
+      <h3>Identidades de género (cis, trans, no binarie, etc.)</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="diversidad">
+      <h3>Orientaciones sexuales (hetero, homo, bi, pan, etc.)</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="diversidad">
+      <h3>Discriminación y respeto</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="diversidad">
+      <h3>Diversidad corporal y estética</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+    <section class="subcategoria" data-categoria="diversidad">
+      <h3>Diversidad familiar</h3>
+      <div class="carrusel-articulos"></div>
+    </section>
+
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="articulos.html">Artículos</a>
+          <a href="#">Foro</a>
+          <a href="#">Subí tu artículo</a>
+          <a href="#">Asociar una Institución Educativa</a>
+          <a href="#">Sobre: Hablemos de ESI</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+  <!--	--------------->

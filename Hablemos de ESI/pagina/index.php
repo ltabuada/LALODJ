@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Hablemos de ESI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+      <div class="logo">
+        <img src="../assets/IMG-ESILogo.png" alt="logo" class="logo" />
+      </div>
+      <nav class="menu">
+        <a href="./login.html">Perfil</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+      <h2> Inicio </h2>
+      <div class="ESIarg">
+        <h3 id="TITULO-ESIarg"> ESI en Argentina </h3>
+        <div class="subcards-ESIarg">
+
+          <div class="subESIarg">
+            <a href="https://www.argentina.gob.ar/normativa/nacional/ley-26150-121222/texto">
+              <img src="../assets/IMG-ESIarg0.jpg" alt="Ley26150" class="IMG-subESIarg" width="100%">
+              <h4 class="TITULO-subESIarg"> Ley 26.150 </h4>
+            </a>
+          </div>
+          <div class="subESIarg">
+            <a href="importancia.html">
+              <img src="../assets/IMG-ESIarg1.jpg" alt="Importancia" class="IMG-subESIarg" width="100%">
+              <h4 class="TITULO-subESIarg"> Importancia </h4>
+            </a>
+          </div>
+          <div class="subESIarg">
+            <a href="problematica.html">
+              <img src="../assets/IMG-ESIarg2.jpg" alt="Problemática" class="IMG-subESIarg" width="100%">
+              <h4 class="TITULO-subESIarg"> Problemática </h4>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ESIvideos">
+        <iframe width="530" height="315" src="https://www.youtube.com/embed/pQrI0PNUZ6k?si=zVOZFWeH2fTUD7Gz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+        <iframe width="530" height="315" src="https://www.youtube.com/embed/H7vF6SctjbE?si=aR7EvwZKbO0tmO_q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+      </div>
+      <div class="canal-encuentro">
+        <div class="encuentro-header">
+          <a href="https://www.youtube.com/@encuentro">
+            <img src="../assets/IMG-LOGOencuentro.png" alt="Logo Canal Encuentro" class="logo-encuentro">
+          </a>
+          <div class="encuentro-textos">
+            <h3 id="ENCUENTRO-TITULO">Canal Encuentro: “ESI para aprender y decidir”</h3>
+            <p>Una serie donde se abordan temáticas vinculadas a la Educación Sexual Integral como la identidad de género, orientaciones sexuales y expresiones de género, el deseo en la menstruación, métodos anticonceptivos y enfermedades de transmisión sexual, con una propuesta estética y códigos visuales cercana a la forma actual de representación de les adolescentes.</p>
+          </div>
+        </div>
+
+        <div class="carrusel-videos">
+          <div class="videos-scroll">
+            <iframe src="https://www.youtube.com/embed/9gQpHziwITA?si=-uyADrRYHruG7LdO" title="Video 1" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/recYy__XzzU?si=rFfIRA1B_bajyjiI" title="Video 2" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/NBeqGPuaO6U?si=ms0K22HfmX5CWV57" title="Video 3" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qbL2Hfv9nAA?si=USmvB2JOjWnD9vh-" title="Video 4" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/nZ6IImHG1T8?si=a0ZT1k6L5PEMBDCC" title="Video 5" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/sbzP6nINTjc?si=CJzCr9UlPGO-ux4h" title="Video 6" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/2-ZejOZpXqU?si=O6jzuA8VMTsLUREL" title="Video 7" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/KJXySyoVSn0?si=gEWfaySC6XsNLMkA" title="Video 8" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/SLKmjQWjcpg?si=_T7JyCnFYkvnrzak" title="Video 9" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/M4vZjlo3of4?si=VV5Z38E6MO80ISQ3" title="Video 10" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="articulos.html">Artículos</a>
+          <a href="#">Foro</a>
+          <a href="#">Subí tu artículo</a>
+          <a href="#">Asociar una Institución Educativa</a>
+          <a href="#">Sobre: Hablemos de ESI</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+  </main>
+  <!--	--------------->
+
+
+
+
+</body>
+
+</html>
